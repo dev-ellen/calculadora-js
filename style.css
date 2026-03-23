@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a2e;
+}
+.calculadora {
+    background-color: #572175;
+    border-radius: 20px;
+    padding: 20px;
+    width: 320px;
+    box-shadow: 0 0 15px 5px rgba(106, 13, 173, 0.7);
+    position: relative;
+}
+.visor {
+    background-color: #0f3460;
+    color: rgb(110, 233, 40);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 34px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    height: 60px;
+    line-height: 35px;
+    min-height: unset;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+}
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.btn {
+    padding: 18px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+.btn:active {
+    transform: scale(0.95);
+}
+.numero {
+  background-color: #e2e2e2;
+  color: #1a1a2e;
+}
+
+.operador {
+  background-color: #be2684;
+  color: white;
+}
+
+.limpar {
+  background-color: #9c5b99d0;
+  color: rgb(255, 255, 255);
+}
+
+.igual {
+  background-color: #0f3460;
+  color: white;
+  grid-column: span 2;
+}
+
+#btnMute {
+  position: absolute;
+  bottom: -45px;
+  left: 0;
+  font-size: 20px;
+  padding: 8px 12px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+#btnMute img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+}
