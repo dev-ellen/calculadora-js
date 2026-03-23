@@ -38,4 +38,7 @@ Sem licença especificada.
 ## Créditos
 - Ícones por [Lucide](https://lucide.dev)
 
+## Demo
+Acesse a calculadora online: [Calculadora JS](https://dev-ellen.github.io/calculadora-js)
+
 *Primeiro projeto no GitHub* 🎉
