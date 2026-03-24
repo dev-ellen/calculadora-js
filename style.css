@@ -9,18 +9,21 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #1a1a2e;
+    background-color: #000000;
 }
 .calculadora {
     background-color: #572175;
     border-radius: 20px;
     padding: 20px;
     width: 320px;
-    box-shadow: 0 0 15px 5px rgba(106, 13, 173, 0.7);
+    border: 1.4px solid #39ff14;
+    box-shadow: 0 0 12px #39ff14,0 0 18px 8px rgba(106, 13, 173, 0.7);
     position: relative;
 }
 .visor {
     background-color: #0f3460;
+    border: 1px solid #39ff14;
+    box-shadow: 0 0 5px #39ff14;
     color: rgb(110, 233, 40);
     font-family: 'Share Tech Mono', monospace;
     font-size: 34px;
